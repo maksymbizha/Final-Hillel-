@@ -1,0 +1,124 @@
+@media (min-width:1400px) {
+  .container{
+	max-width: 1600px;
+  }
+}
+
+
+body{
+  font-family: $main-font;
+  font-weight: $font-normal;
+  font-size: $font-md;
+  a {
+	text-decoration: none;
+  }
+}
+
+
+.container-w{
+  padding: 0 15px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 992px){
+  .container-w {
+	max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-w{
+	max-width: 1000px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-w{
+	max-width: 1200px;
+  }
+}
+
+
+
+
+.bg-gradient{
+  position: relative;
+  border-radius: 0 0 12px 12px;
+
+  &:before,&:after{
+	content: '';
+	display: block;
+	border-radius: 0 0 12px 12px;
+	position: absolute;
+	height: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+
+  &:before{
+	bottom: -10px;
+	background-color: #CACADB;
+	width: calc(100% - 20px);
+  }
+  &:after{
+	bottom: -20px;
+	background-color:  #E7E7F2;
+	width: calc(100% - 40px);
+  }
+}
+
+
+//---Header Modal---
+.header__modal{
+  .modal{
+	background: #323264;
+
+	.modal-content{
+	  background-color: #F5F5FA;
+	}
+	.modal-header{
+	  .modal-title{
+		text-align: center;
+		font-weight: $font-bold;
+		font-size: $font-xll;
+		line-height: 46px;
+		background-image: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	  }
+	  button{
+		border: none;
+		background-color: transparent;
+		i{
+		  font-size: 22px;
+		  color: red;
+		  padding: 5px;
+		  &:hover{
+			background: #E6E6F0;
+			border-radius: 8px;
+		  }
+		}
+	  }
+
+	}
+
+
+
+	.modal-body {
+	  h5 {
+		font-weight: $font-bold;
+		font-size: $font-sm;
+		line-height: 17px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	  }
+	  .textarea {
+		min-height: 130px
+	  }
+	}
+	.modal-footer{
+	  button{
+		width: 100%;
+	  }
+	}
+  }
+}

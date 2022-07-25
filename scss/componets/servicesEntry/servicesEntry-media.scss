@@ -1,0 +1,17 @@
+.servicesEntry{
+  @media (max-width: 1025px){
+	&{
+	  padding: 290px 0 60px 0;
+	}
+  }
+  @media (max-width: 768px){
+	&{
+	  padding: 215px 0 60px 0;
+	}
+	&__content{
+	 .row{
+		flex-direction: column;
+	  }
+	}
+  }
+}

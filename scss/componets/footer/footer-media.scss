@@ -1,0 +1,27 @@
+.footer{
+  @media (max-width: 767px) {
+	&__wrapper,&__content-address,&__content-contact{
+	  flex-direction: column;
+	  justify-content: center;
+	  align-items: center;
+	}
+	 &__content-address{
+	   a{
+		 margin-bottom: 20px;
+	   }
+	   address:after{
+		display: none;
+	  }
+	}
+	&__content-contact {
+	  & > div:not(:last-child) {
+		&:after {
+		  display: none;
+		}
+	  }
+	  &-email{
+		margin-bottom: 30px;
+	  }
+	}
+  }
+}

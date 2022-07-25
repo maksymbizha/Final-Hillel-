@@ -1,0 +1,32 @@
+.banner{
+  margin-bottom: 60px;
+  height: calc(100vh - #{$gradient-shadow-height * 2});
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-image: url("/assets/icons/symbol.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: relative;
+
+  h1{
+	color: $white-color;
+	font-size: $font-xll;
+	font-weight: $font-bold;
+  }
+
+  &__scroll{
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	transform: translateX(-50%);
+	i{
+	  color: $white-color;
+	  font-size: 32px;
+	  &:hover{
+		color: $accent-color;
+	  }
+	}
+  }
+}

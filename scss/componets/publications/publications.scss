@@ -1,0 +1,81 @@
+.publications{
+  background: $footer-bg-color;
+  padding-top: 30px;
+
+  &__link {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	a{
+	  color: $services-color;
+	  font-weight: $font-bold;
+	  font-size: 14px;
+	  line-height: 17px;
+	  text-transform: uppercase;
+	  i{
+		color: $services-color;
+		font-size: 17px;
+	  }
+	}
+	a:hover,i:hover{
+	  color: $accent-color;
+	  transition: 0.3s;
+	}
+  }
+
+  &__title{
+	h2{
+	  font-weight: $font-bold;
+	  font-size: $font-xll;
+	  line-height: 46px;
+	  background-image: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  margin-bottom: 30px;
+	}
+  }
+
+  &__item{
+	margin-bottom: 40px;
+
+	&-wrapper{
+	  height: 335px;
+	  background-color: $white-color;
+	  &-box{
+		padding: 30px 30px 30px 30px;
+	  }
+	}
+	img{
+	  width: 100%;
+	}
+
+	h3{
+	  font-weight: $font-bold;
+	  font-size: $font-sm;
+	  line-height: 20px;
+	  color: $services-color;
+	  margin-bottom: 15px;
+	}
+	span{
+	  font-weight: $font-bold;
+	  font-size: 12px;
+	  line-height: 15px;
+	  letter-spacing: 1px;
+	  text-transform: uppercase;
+	  color: $footer-accent-color;
+	  margin-bottom: 15px;
+	}
+	.line{
+	  width: 100%;
+	  height: 4px;
+	  background: $line-color;
+	  margin-bottom: 15px;
+	}
+	p{
+	  font-weight: $font-normal;
+	  font-size: 14px;
+	  line-height: 22px;
+	  color: #000000;
+	}
+  }
+}

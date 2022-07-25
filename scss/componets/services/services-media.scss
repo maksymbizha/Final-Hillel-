@@ -1,0 +1,12 @@
+.services{
+  @media (max-width: 992px) {
+	.tablet{
+	  margin-bottom: 30px;
+	}
+  }
+  @media (max-width: 576px) {
+	.mobile{
+	  margin-bottom: 30px;
+	}
+  }
+}

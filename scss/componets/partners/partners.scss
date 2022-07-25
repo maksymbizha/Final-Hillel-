@@ -1,0 +1,80 @@
+.partners {
+  margin: 60px 0;
+
+  &__title{
+	margin-bottom: 30px;
+
+	h2{
+	  font-weight: $font-bold;
+	  font-size: 14px;
+	  line-height: 17px;
+	  letter-spacing: 1px;
+	  text-transform: uppercase;
+	  color: #323264;
+	  text-align: center;
+	}
+  }
+  &__wrapper{
+	border-radius: 20px;
+	overflow: hidden;
+  }
+  &-hillel{
+	width: 430px;
+	height: 120px;
+	background: #1C4280;
+
+  }
+  &-wannabiz{
+	width: 430px;
+	height: 120px;
+	background: #143646;
+
+  }
+  &-tapgerine,
+  &-orangear {
+	width: 430px;
+	height: 120px;
+	background: linear-gradient(0deg, #F48B30, #F48B30), #F48B30;
+  }
+  &-look{
+	width: 430px;
+	height: 120px;
+	background: #9E4DC3;
+  }
+  &-adtelligent{
+	width: 430px;
+	height: 120px;
+	background: #E2E2E4;
+  }
+  &-clickky{
+	width: 430px;
+	height: 120px;
+	background: #C71C36;
+  }
+  &-ecolease{
+	width: 430px;
+	height: 120px;
+	background: #DCF3F9;
+  }
+  &-infratek{
+	width: 430px;
+	height: 120px;
+	background: #EAEAEA;
+  }
+  &-citi-park{
+	width: 430px;
+	height: 120px;
+	background: #282240;
+  }
+  &-art-print-studio{
+	width: 430px;
+	height: 120px;
+	background: #1D4568;
+  }
+  &-ultimate-card{
+	width: 430px;
+	height: 120px;
+	background: #000000;
+  }
+
+}
