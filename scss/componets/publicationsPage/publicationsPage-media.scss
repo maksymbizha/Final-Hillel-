@@ -1,0 +1,7 @@
+.publicationsPage{
+  @media (max-width: 1024px) and (min-width: 767px) {
+	&{
+	  padding-top: 250px;
+	}
+  }
+}

@@ -39,6 +39,7 @@
 	}
   }
   &__item{
+	margin-bottom: 25px;
 
 	&-svg{
 	  padding: 14px;
@@ -54,6 +55,10 @@
 	  line-height: 27px;
 	  color: $services-color;
 	  margin-bottom: 15px;
+	  &:hover{
+		color: $accent-color;
+		transition: 0.3s;
+	  }
 	}
 	p{
 	  font-weight: $font-normal;

@@ -1,0 +1,12 @@
+.servicesPage{
+  @media (max-width: 1025px){
+	&{
+	  padding: 270px 0 60px 0;
+	}
+  }
+  @media (max-width: 768px){
+	&{
+	  padding: 170px 0 60px 0;
+	}
+  }
+}

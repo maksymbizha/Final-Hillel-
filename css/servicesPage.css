@@ -899,23 +899,24 @@ body a {
   margin-bottom: 30px;
 }
 .publications__item {
+  margin-bottom: 40px;
   background-color: white;
   height: 100%;
 }
-.publications__item-wrapper {
+.publications__item-wrapper-box {
   padding: 30px 30px 30px 30px;
 }
-.publications__item-wrapper img {
+.publications__item-wrapper-box img {
   width: 100%;
 }
-.publications__item-wrapper h3 {
+.publications__item-wrapper-box h3 {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #24A3FF;
   margin-bottom: 15px;
 }
-.publications__item-wrapper span {
+.publications__item-wrapper-box span {
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -924,14 +925,15 @@ body a {
   color: #B3B3BA;
   margin-bottom: 15px;
 }
-.publications__item-wrapper .line {
+.publications__item-wrapper-box .line {
   width: 100%;
   height: 4px;
   background: #E6E6F0;
   margin-bottom: 15px;
 }
-.publications__item-wrapper p {
+.publications__item-wrapper-box p {
   margin-bottom: 0;
+  background-color: red;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -1391,4 +1393,4 @@ body a {
   }
 }
 
-/*# sourceMappingURL=servicesEntry.css.map */
+/*# sourceMappingURL=servicesPage.css.map */

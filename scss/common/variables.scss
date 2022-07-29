@@ -13,11 +13,13 @@ $font-bold: 700;
 
 $white-color: #ffff;
 $accent-color: #F0145A;
+$main-color: #323264;
 
+$publicationEntry-color: #46466E;
 
 $footer-bg-color: #F5F5FA;
-$footer-accent-color: #B3B3BA;
-$line-color: #E6E6F0;
+$grey-text: #B3B3BA;
+$separator-color: #E6E6F0;
 
 
 
@@ -35,13 +37,30 @@ $mobile-menu-item-color: #24A3FF;
 $mobile-menu-item-bg-color: #F5F5FA;
 $mobile-menu-item-bg-color-active: #E6E6F0;
 
+.header{
+  .nav-link{
+	--bs-nav-link-color: #{$white-color};
+	--bs-navbar-active-color: #{$accent-color};
+	--bs-navbar-nav-link-padding-x: 0;
+	--bs-nav-link-hover-color: #{$accent-color};
+	--bs-nav-link-padding-y: 0;
+  }
+  a:hover{
+	--bs-link-hover-color: #{$accent-color};
+  }
+}
 
-.nav-link{
-  --bs-nav-link-color: #{$white-color};
-  --bs-navbar-active-color: #{$accent-color};
-  --bs-navbar-nav-link-padding-x: 0;
-  --bs-nav-link-hover-color: #{$accent-color};
-  --bs-nav-link-padding-y: 0;
+.headerWhite{
+  .nav-link{
+	--bs-nav-link-color: #{$services-color};
+	--bs-navbar-active-color: #{$accent-color};
+	--bs-navbar-nav-link-padding-x: 0;
+	--bs-nav-link-hover-color: #{$accent-color};
+	--bs-nav-link-padding-y: 0;
+  }
+  a:hover{
+	--bs-link-hover-color: #{$accent-color};
+  }
 }
 
 
@@ -50,11 +69,7 @@ $mobile-menu-item-bg-color-active: #E6E6F0;
 
   //---Header---ROOT-- + --Modal//
 
-.header{
-  a:hover{
-	--bs-link-hover-color: #{$accent-color};
-  }
-}
+
 
 .header__top-modal{
   .btn{
@@ -78,8 +93,22 @@ $mobile-menu-item-bg-color-active: #E6E6F0;
 	}
 	.modal-body {
 	  h5 {
-		--bs-heading-color: #B3B3BA;
+		--bs-heading-color: #{$grey-text};
 	  }
+	}
+  }
+}
+
+
+.headerWhite__top-modal{
+  .btn{
+	--bs-btn-padding-x: 0;
+	--bs-btn-padding-y: 0;
+	--bs-btn-font-size: 24px;
+	--bs-btn-color: #{$grey-text};
+	--bs-btn-border-width: 0;
+	&:hover,&:focus,&:active{
+	  --bs-btn-hover-color: #{$accent-color};
 	}
   }
 }
