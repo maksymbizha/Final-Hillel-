@@ -1,0 +1,58 @@
+.teamPage{
+  padding-top: 160px;
+  h1{
+	font-weight: $font-bold;
+	font-size: $font-xll;
+	line-height: 46px;
+	background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0 auto 60px auto;
+	width: 92%;
+  }
+  &__item{
+	margin-bottom: 60px;
+	&-photo{
+	  margin-bottom: 30px;
+	  img{
+		border-radius: 12px;
+	  }
+	}
+	&-wrapper{
+	  justify-content: space-between;
+	  a{
+		color: $main-color;
+		h2{
+		  font-weight: $font-bold;
+		  font-size: $font-sm;
+		  line-height: 20px;
+		  cursor: pointer;
+		  &:hover{
+			color: $accent-color;
+		  }
+		}
+	  }
+	  span{
+		font-weight: $font-normal;
+		font-size: 14px;
+		line-height: 22px;
+		color: $grey-text;
+	  }
+	}
+	&-button{
+	  button{
+		height: 32px;
+		width: 32px;
+		border: none;
+		border-radius: 50%;
+		i{
+		  color: $services-color;
+		  font-size: 25px;
+		  &:hover{
+			color: $accent-color;
+		  }
+		}
+	  }
+	}
+  }
+}

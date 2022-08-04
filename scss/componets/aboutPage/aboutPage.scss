@@ -1,0 +1,67 @@
+.aboutPage{
+  padding: 160px 0 60px 0;
+
+  h1,h2{
+	font-weight: $font-bold;
+	font-size: $font-xll;
+	line-height: 46px;
+	background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  p{
+	font-weight: $font-normal;
+	font-size: $font-md;
+	line-height: 30px;
+	color: #000000;
+  }
+  &__photo{
+	margin: 60px 0;
+	&-bg{
+	  width: 100%;
+	  position: relative;
+	}
+	&-text{
+	  position: absolute;
+	  width: 28%;
+	  margin-top: -18%;
+	  margin-left: 36%;
+	}
+
+	h3{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  font-size: 50px;
+	  color: $white-color;
+	  text-transform: capitalize;
+	  text-align: center;
+	}
+
+  }
+  &__wrapper{
+	display: flex;
+	gap: 30px;
+
+	&-line{
+	  display: block;
+	  height: 280px;
+	  width: 5px;
+	  background-color: $separator-color;
+	}
+	&-min{
+	  &-item{
+		gap: 15px;
+		span{
+		  font-weight: $font-bold;
+		  font-size: 36px;
+		  line-height: 44px;
+		  text-align: center;
+		  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+		  -webkit-background-clip: text;
+		  -webkit-text-fill-color: transparent;
+		}
+	  }
+	}
+  }
+}
