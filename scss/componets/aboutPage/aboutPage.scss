@@ -1,7 +1,7 @@
-.aboutPage{
-  padding: 160px 0 60px 0;
+.aboutPage {
+  padding: 170px 0 60px 0;
 
-  h1,h2{
+  h1, h2 {
 	font-weight: $font-bold;
 	font-size: $font-xll;
 	line-height: 46px;
@@ -9,26 +9,30 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   }
-  p{
+
+  p {
 	font-weight: $font-normal;
 	font-size: $font-md;
 	line-height: 30px;
 	color: #000000;
   }
-  &__photo{
+
+  &__photo {
 	margin: 60px 0;
-	&-bg{
+
+	&-bg {
 	  width: 100%;
 	  position: relative;
 	}
-	&-text{
+
+	&-text {
 	  position: absolute;
 	  width: 28%;
 	  margin-top: -18%;
 	  margin-left: 36%;
 	}
 
-	h3{
+	h3 {
 	  display: flex;
 	  align-items: center;
 	  justify-content: center;
@@ -39,20 +43,23 @@
 	}
 
   }
-  &__wrapper{
+
+  &__wrapper {
 	display: flex;
 	gap: 30px;
 
-	&-line{
+	&-line {
 	  display: block;
-	  height: 280px;
+	  height: 100%;
 	  width: 5px;
 	  background-color: $separator-color;
 	}
-	&-min{
-	  &-item{
+
+	&-min {
+	  &-item {
 		gap: 15px;
-		span{
+
+		span {
 		  font-weight: $font-bold;
 		  font-size: 36px;
 		  line-height: 44px;
@@ -62,6 +69,60 @@
 		  -webkit-text-fill-color: transparent;
 		}
 	  }
+	}
+  }
+}
+.achievements{
+  background-color: $footer-bg-color;
+  padding: 120px 0;
+  position: relative;
+
+  h3{
+	font-weight: $font-bold;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: $main-color;
+	margin-bottom: 45px;
+  }
+  .carousel{
+	&-inner{
+	}
+	&-item{
+	  background-color: $footer-bg-color;
+	  justify-content: space-between;
+
+	  &-wrapper{
+		background-color: $white-color;
+		height: 110px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+	}
+	.carousel-indicators {
+	  display: flex;
+	  justify-content: center;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  z-index: 2;
+	  padding: 0;
+	  margin-right: 0;
+	  margin-bottom: -8%;
+	  margin-left: 0;
+	  position: absolute;
+	}
+	.carousel-indicators [data-bs-target] {
+	  width: 15px;
+	  height: 15px;
+	  background-color: $services-color;
+	  border-radius: 50%;
+	  border: none;
+	  cursor: pointer;
+	  border: 0;
 	}
   }
 }

@@ -1,12 +1,84 @@
-.team{
-  .carousel-inner{
-	.carousel-item{
-	  .team__bg-img{
-		background-image: url("/assets/icons/team.svg");
-		height: 50px;
-		width: 50px;
+.team {
+  padding: 80px 0 60px 0;
 
+  .carousel {
+	&-inner{
+	  margin-bottom: 40px;
+	}
+	&-item {
+	  &-wrapper {
+		display: flex;
+		gap: 30px;
+		background: $footer-bg-color;
+		border-radius: 12px;
+		&-content {
+		  margin-top: 30px;
+		  a {
+			font-weight: $font-bold;
+			font-size: 14px;
+			line-height: 17px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: $services-color;
+			&:hover{
+			  color: $accent-color;
+			}
+			i{
+			  color: #24A3FF;
+			  font-size: 17px;
+			  &:hover{
+				color: $accent-color;
+			  }
+			}
+		  }
+		  h2 {
+			font-weight: $font-bold;
+			font-size: $font-xll;
+			line-height: 46px;
+			background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			margin-bottom: 30px;
+		  }
+		  h4 {
+			font-weight: $font-bold;
+			font-size: $font-sm;
+			line-height: 20px;
+			color: $grey-text;
+		  }
+		  p {
+			font-weight: $font-normal;
+			font-size: 14px;
+			line-height: 22px;
+			color: $grey-text;
+		  }
+		}
 	  }
+	}
+	.carousel-indicators {
+	  display: flex;
+	  justify-content: center;
+	  position: static;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	  z-index: 0;
+	  padding: 0;
+	  margin-right: 0;
+	  margin-bottom: 0;
+	  margin-left: 0;
+	}
+	.carousel-indicators [data-bs-target] {
+	  width: 15px;
+	  height: 15px;
+	  background-color: $services-color;
+	  border-radius: 50%;
+	  border: none;
+	  cursor: pointer;
+	  border: 0;
 	}
   }
 }
+
+
+

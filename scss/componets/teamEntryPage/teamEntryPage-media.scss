@@ -1,0 +1,30 @@
+.teamEntryPage{
+  @media (max-width: 1200px) and (min-width: 992px) {
+	&__content-wrapper{
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+  }
+  @media (max-width: 1025px){
+	&{
+	  padding: 270px 0 60px 0;
+	}
+  }
+  @media (max-width: 768px){
+	&{
+	  padding: 170px 0 60px 0;
+	}
+  }
+  @media (max-width: 576px) {
+	&__content-wrapper{
+	  flex-direction: column;
+	  align-items: flex-start;
+	}
+	&__item {
+	  margin-bottom: 30px;
+	}
+	h1{
+	  width: 100%;
+	}
+  }
+}

@@ -1,0 +1,10 @@
+.team{
+  @media (max-width: 992px) {
+	.carousel-item-wrapper{
+	  flex-direction: column;
+	  &-content{
+		margin: 0 30px 30px 30px;
+	  }
+	}
+  }
+}

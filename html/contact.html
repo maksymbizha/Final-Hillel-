@@ -5,9 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> teamEntryPage </title>
+    <title> contact </title>
 
-    <link rel="stylesheet" href="../css/teamEntryPage.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
@@ -67,7 +67,7 @@
 
         <nav class="navbar navbar-expand-md ">
             <div class="container-lg">
-                <img src="../assets/icons/logo-header-teamPage.svg" alt="logo">
+                <img src="../assets/icons/logo-header-contact.svg" alt="logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
@@ -102,45 +102,76 @@
     </div>
 </header>
 <main>
-    <section class="teamEntryPage">
+    <section class="contact">
         <div class="container-w">
             <div class="row">
-                <div class="col-12 col-lg-5">
-                    <div class="teamEntryPage__photo">
-                        <img src="../assets/icons/teamPage5.svg" alt="#">
-                    </div>
-                </div>
-                <div class="col-12 col-lg-7">
-                    <div class="teamEntryPage__content">
-                        <h1>Oksana Kobzar</h1>
-                        <div class="teamEntryPage__content-wrapper">
-                            <span>Equity partner, Attorney-at-law</span>
-                            <div class="teamEntryPage__content-wrapper-email">
-                                <a href="#">kobzar@forstudy.space</a>
-                            </div>
-                            <div class="teamEntryPage__content-wrapper-linkedin">
-                                <a href="#">LinkedIn profile</a>
-                            </div>
+                <div class="col-6">
+                    <div class="contact__wrapper">
+                        <div class="contact__wrapper-address">
+                            <a target="_blank"
+                               href="https://www.google.com.ua/maps/place/Pyam'yatnyk+Zhertvam+Teroryzmu,+Поблизу+станції+метро+Кловська,+вулиця+Мечникова,+14%2F1,+Київ,+01023/@50.4368635,30.529918,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf00d4d55dad:0x40f274cb5d991e55!8m2!3d50.4368601!4d30.5321067?hl=ru">
+                                Kyiv, Mechnikova str, 14/1
+                            </a>
                         </div>
-                        <div class="teamEntryPage__content-line"></div>
-                        <p>
-                            Oksana heads the practice of international trade and shipping.
-                            He specializes in resolving disputes related to the purchase and sale of raw materials and transportation of goods by sea.
-                            Desis represents the interests of shipowners, freight forwarders, cargo owners, shipping agents, container lines,
-                            as well as international banks and P&I clubs.
-                        </p>
-                        <h4>Education</h4>
-                        <p>National University "Odessa Law Academy", Master of Law.</p>
-                        <h4>Experience</h4>
-                        <p>Her professional experience includes resolving disputes under English law and representing interests in foreign commercial arbitrations such as GAFTA, FOSFA and LMAA.
-                            Danilo also represents the interests of clients in the state courts of Ukraine on similar disputes, as well as in the ICAC and IAC at the CCI of Ukraine
-                        </p>
+
+                        <div class="contact__wrapper-line"></div>
+
+                        <div class="contact__wrapper-phone">
+                            <a href="tel:0800211927">
+                                0800 211 927</a>
+                        </div>
+
+                        <div class="contact__wrapper-email">
+                            <a href="#">contact@forstudy.space</a>
+                        </div>
+
+                        <div class="contact__wrapper-line"></div>
+
+                        <div class="contact__wrapper-social">
+                            <a target="_blank" href="https://www.facebook.com/">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col-6">
+                    <div class="contact__form">
+                        <form>
+                            <h1>We would like to help you</h1>
+                            <div class="contact__form-name">
+                                <label for="contact-text-name"></label>
+                                <input type="text" placeholder="Name" id="contact-text-name">
+                            </div>
+
+                            <div class="contact__form-message">
+                                <label for="contact-message-text"></label>
+                                <textarea class="textarea" placeholder="Message" id="contact-message-text"></textarea>
+                            </div>
+
+                            <h2>How to answer you?</h2>
+
+                            <div class="contact__form-phone-number">
+                                <label for="contact-phone-number"></label>
+                                <input type="tel" placeholder="Phone number"  id="contact-phone-number">
+                            </div>
+
+                            <div class="contact__form-email">
+                                <label for="contact-email-name"></label>
+                                <input type="email" placeholder="Email"  id="contact-email-name">
+                            </div>
+                        </form>
+                        <button type="button" class="contact__form-btn">
+                            Send message
+                        </button>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 </main>
+
 <footer class="footerNotLine">
     <div class="container-lg">
 

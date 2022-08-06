@@ -127,7 +127,25 @@ $mobile-menu-item-bg-color-active: #E6E6F0;
   }
 }
 
-.container-fluid{
-  padding-right: calc(var(--bs-gutter-x) * 0);
-  padding-left: calc(var(--bs-gutter-x) * 0);
+
+  //---teamEntryPage---//
+.teamEntryPage{
+  a:hover{
+	--bs-link-hover-color: #{$accent-color};
+  }
+  .row>*{
+	padding-right: calc(var(--bs-gutter-x) * 1);
+	padding-left: calc(var(--bs-gutter-x) * 1);
+  }
 }
+
+
+.contact{
+  &__form{
+	.btn{
+	  --bs-btn-padding-x: 15px;
+	  --bs-btn-padding-y: 15px;
+	}
+  }
+}
+
