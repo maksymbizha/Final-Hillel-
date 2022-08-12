@@ -13,6 +13,14 @@
 		border-radius: 12px;
 		&-content {
 		  margin-top: 30px;
+		  &-title{
+			color: $services-color;
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 17px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+		  }
 		  a {
 			font-weight: $font-bold;
 			font-size: 14px;
@@ -33,7 +41,7 @@
 		  }
 		  h2 {
 			font-weight: $font-bold;
-			font-size: $font-xll;
+			font-size: 28px;
 			line-height: 46px;
 			background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
 			-webkit-background-clip: text;

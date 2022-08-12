@@ -50,6 +50,9 @@
 		line-height: 20px;
 		color: $services-color;
 		margin-bottom: 15px;
+		&:hover{
+		  color: $accent-color;
+		}
 	  }
 	  span{
 		font-weight: $font-bold;
